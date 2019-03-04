@@ -1,0 +1,23 @@
+<button type="button" class="close close-button" aria-label="Close" (click)="onNoClick()">
+    <span aria-hidden="true">&times;</span>
+</button>
+<div style="display: flex">
+  <img src="../../assets/images/map.jpg" alt="map image" style="width:50px;height: 50px;">
+  <div>
+    <h1 style="margin-top: 10px" mat-dialog-title>Alert</h1>
+  </div>
+  
+</div>
+<div mat-dialog-content>
+  <p>alert as s sasasasa sas asasas as sasas as s asasas sas sasasa</p>
+  <mat-form-field>
+    <textarea class="modal-textArea custom-input" matInput placeholder="Textarea"></textarea>
+  </mat-form-field>
+  <mat-checkbox>Clear duplicates</mat-checkbox>
+</div>
+<div mat-dialog-actions>
+  <div class="btn-container">
+    <!-- <button mat-button color="accent" (click)="onNoClick()">Close</button> -->
+    <button class="modal-button" mat-button cdkFocusInitial>Accept</button>
+  </div>
+</div>

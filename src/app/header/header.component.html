@@ -1,0 +1,30 @@
+<div class="header-container">
+  <div class="filter-container">
+      <div class="btn-group btn-breadcrumb" style="min-width: 21vw">
+          
+          <a href="#" class="btn btn-default"><i class="fa fa-bars" aria-hidden="true"></i></a>
+          <a href="#" class="btn btn-default">Manage Clients</a>
+          
+          <a href="#" class="btn btn-default">Client List</a>
+    </div>
+    <!-- <div style="margin-right: 10px;min-width: 75px;">Client List</div> -->
+    <mat-form-field>
+      <input class="custom-input " matInput placeholder="Input">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-select class="custom-mat-select" placeholder="Select">
+        <mat-option value="option">Option 1</mat-option>
+        <mat-option value="option2">Option 2</mat-option>
+        <mat-option value="option3">Option 3</mat-option>
+        <mat-option value="option4">Option 4</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <div class="btn-container">
+      <button class="custom-mat-button " mat-button>Add Filter</button>
+    </div>
+  </div>
+  <div class="flex-spacer"></div>
+  <div class="btn-container flex-vertical-center">
+    <button class="custom-mat-button right-margin" mat-button (click)="openDialog()">Alert</button>
+  </div>
+</div>

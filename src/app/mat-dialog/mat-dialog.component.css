@@ -1,0 +1,26 @@
+/* .mat-input-element {
+    height: 80px !important;
+} */
+p {
+    margin-bottom: 0em !important;
+}
+.btn-container {
+    margin-left: auto;
+}
+/* .mat-button {
+    color: #ffffff;
+    background-color: #414142;
+    border-color: #343435;
+} */
+.close-button {
+    margin-right: -10px;
+    margin-top: -10px;
+    color: #c1c1c1 !important;
+    cursor: pointer;
+}
+.close-button:focus {
+    outline: none;
+}
+.mat-form-field {
+    width: 100%;
+}

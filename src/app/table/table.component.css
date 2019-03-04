@@ -1,0 +1,45 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: grey;
+  }
+  tr:nth-of-type(odd) {
+    background-color:#ebebeb;
+  }
+  th {
+    background-color: #414142;
+    color: white !important;
+  }
+  td {
+      border: 1px solid #dadada;;
+  }
+  .table > thead {
+    background-color: #414142;
+    color: #ffffff;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #dddddd;
+}
+.table-condensed > thead > tr > th, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > td {
+    padding: 5px;
+}
+td.mat-cell:first-of-type,td.mat-cell:first-of-type, td.mat-footer-cell:first-of-type, th.mat-header-cell:first-of-type {
+    padding-left: 0px;
+}
+tr {
+    height: 15px;
+}
+tr.mat-footer-row, tr.mat-row {
+    height: 38px;
+}
+tr.mat-header-row {
+    height: 40px;
+}
+th.mat-header-cell {
+ border-color: white;
+ border: 1px solid white;   
+}
+td,th {
+    padding-left: 10px !important;
+}
